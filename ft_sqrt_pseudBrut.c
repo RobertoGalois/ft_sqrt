@@ -24,5 +24,5 @@ int     ft_sqrt(int nb)
             ret = 0;
     }   
 
-        return (ret);
+    return (ret);
 }
