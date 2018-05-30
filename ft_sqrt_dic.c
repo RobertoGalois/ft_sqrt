@@ -11,7 +11,10 @@ int     ft_sqrt(int nb)
     r_sqrt = nb - 1;
     m_sqrt = 0;
     
-    if (nb == 1)
+    if (nb <= 0)
+        m_sqrt = 0;
+    
+    else if (nb == 1)
         m_sqrt = 1;
     
     else
