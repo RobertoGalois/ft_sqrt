@@ -16,9 +16,7 @@ int     ft_sqrt(int nb)
         m_sqrt_square = (m_sqrt * m_sqrt);
 
         if (m_sqrt_square == nb) 
-        {
             bool_found = 1;
-        }
 
         else
         {
